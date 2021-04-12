@@ -1,0 +1,10 @@
+<div class="products_detail"> 
+    <img [src]="product.image" alt="" width="100%" height="100%">
+</div>
+<div class="description_detail">
+    <ul>
+        <li>Nombre: {{product.title}}</li>
+        <li>Precio: {{product.price | currency}}</li>
+    </ul>
+    <p>Description: {{product.description}}</p>
+</div>

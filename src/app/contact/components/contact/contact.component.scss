@@ -1,0 +1,20 @@
+table {
+    width: 100%;
+    font:normal 13px Arial;
+    text-align:center;
+    border-collapse:collapse;
+}
+table th {
+    font:bold 15px Arial;
+    background-color:lightblue;
+}
+ .fila_impar {
+    background-color:lightgray;
+}
+ .fila_par {
+    background-color:lightgreen;
+}
+ .fila_resaltada {
+    color:yellow;
+    background-color:rgb(0, 255, 115);
+}

@@ -1,0 +1,22 @@
+nav {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+nav > a {
+    padding: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #004d40;
+    margin-left: 10px;
+}
+
+nav > a.active {
+    background:#39796b;
+    color: #ffffff;
+}
+.header-row{
+    width: 100%;
+}
+.color_toolbar{
+    background-color: #39796b;
+}

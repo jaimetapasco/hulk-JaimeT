@@ -1,0 +1,13 @@
+
+
+<button (click)="addItem()" mat-raised-button color="primary">añardir producto</button>
+<div class="ul_orden">
+    <ul >
+        <li *ngIf="items.length === 0"> la lista esta vacia</li>
+        <li *ngFor="let names of items; index as i">
+            {{names}} {{i}}
+            <button (click)="deleteItem(i)" mat-raised-button color="warn">eliminar</button>
+        </li>
+    </ul>
+
+</div>
